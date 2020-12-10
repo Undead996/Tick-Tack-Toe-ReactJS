@@ -109,3 +109,6 @@
 .winner button:hover{
     background-color: rgb(48, 48, 48);
 }
+.prev button:focus, .game-footer button:focus, .winner button:focus{
+    outline:none;
+}
