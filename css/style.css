@@ -58,6 +58,7 @@
     font-size: 5rem;
     font-family: sans-serif;
     padding: 10px;
+    cursor: pointer;
 }
 .prev{
     background-image: url(../img/original.jpg);
