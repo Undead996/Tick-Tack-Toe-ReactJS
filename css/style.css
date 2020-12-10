@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.game{
+    margin: 50px auto;
+    background-color: rgb(151, 151, 151);
+    width: 600px;
+    height: 600px;
+}
+.game-header{
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    height: 100px;
+    text-align: center;
+}
+.game-header h3{
+    color: whitesmoke;
+    font-size: 4rem;
+    padding-top: 15px;
+}
+.game-content{
+    width: 100%;
+    background-color: rgb(151, 151, 151);
+    position: relative;
+}
+.game-footer{
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    height: 100px;
+    text-align: center;
+}
+.game-footer button{
+    background-color: whitesmoke;
+    border-radius: 100%;
+    font-size: 3rem;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    margin: 12px 0;
+    transition: 0.2s;
+}
+.x-o{
+    height: 400px;
+    width: 400px;
+    margin: 25px auto 25px;
+    background-color: rgb(248, 248, 248);
+    border: solid black 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.x-o div{
+    border: solid black 1px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 5rem;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.prev{
+    background-image: url(../img/original.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    height: 100%;
+}
+.prev button{
+    background-color: rgb(211, 211, 211);
+    border-radius: 100%;
+    font-size: 9rem;
+    color: black;
+    padding: 40px;
+    border: none;
+    margin-top: 180px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.prev button:hover, .game-footer button:hover{
+    background-color: rgb(255, 255, 255);
+}
+.winner{
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-color:rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top:-100px;
+    border: 1px solid whitesmoke;
+    font-size: 3rem;
+}
+.winner h3{
+    margin: 20px;
+}
+.winner span{
+    margin: 0 20px;
+}
+.winner button{
+    margin: 230px 30px;
+    font-size: 3rem;
+    border-radius: 100%;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.winner button:hover{
+    background-color: rgb(48, 48, 48);
+}

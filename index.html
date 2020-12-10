@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики-Нолики</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/16.2.0/umd/react.development.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.2.0/umd/react-dom.development.js'></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="js/Tile.js"></script>
+    <script type="text/babel" src="js/Whowin.js"></script>
+    <script type="text/babel" src="js/App.js"></script>
+</head>
+<body>
+    <div class="game">
+    </div>
+    
+    <script type="text/babel">
+        ReactDOM.render(
+            <App/>,
+            document.querySelector(".game")
+        )
+    </script>
+</body>
+</html>
