@@ -76,7 +76,6 @@ class App extends React.Component{
                     }else{
                         chanse = false;
                     }
-
                 }
             }
             if(count==1 && chek[4]["val"]!=1){
